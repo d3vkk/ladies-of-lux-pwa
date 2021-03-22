@@ -1,0 +1,34 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="shortcut icon" href="img/icon.png">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta property="og:title" content="Ladies of Lux Academy PWA">
+        <meta property="og:description" content="Ladies of Lux Academy PWA">
+        <meta property="og:url" content="https://ladiesoflux.netlify.app">
+        <title>Ladies of Lux Academy PWA</title>
+        <link href="css/main.css" rel="stylesheet">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="theme-color" content="#60EFFF">
+    </head>
+    <body>
+        <main>
+            <h1>Ladies of Lux Academy</h1>
+            <h2>PROGRESSIVE WEB APP</h2>
+        </main>
+        <footer>
+            <div>Getting Started with PWA using Vanilla Javascript</div>
+        </footer>
+
+        <script>
+            if ("serviceWorker" in navigator) {
+                window.addEventListener("load", function () {
+                    navigator.serviceWorker.register("/serviceWorker.js").then(res => console.log(
+                        "service registered", res)).catch(err => console.log("service worker not registerd",
+                        err))
+                })
+            }
+
+        </script>
+    </body>
+</html>
