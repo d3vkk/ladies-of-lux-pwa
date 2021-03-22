@@ -1,7 +1,7 @@
-const staticAxela = "axela-v1.1.0";
+const staticLadiesOfLux = "ladiesoflux-v1.3.0";
 const assets = ["/", "/index.html", "/css/main.css", "/img/icon.png"]
 self.addEventListener("install", installEvent => {
-    installEvent.waitUntil(caches.open(staticAxela).then(cache => {
+    installEvent.waitUntil(caches.open(staticLadiesOfLux).then(cache => {
         cache.addAll(assets)
     }))
 })
