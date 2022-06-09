@@ -14,9 +14,7 @@ To contribute, [use this guide](https://github.com/d3vkk/open-source/blob/master
 
 Star this repo for future reference
 
-Press `.` to open in browser-based Vscode
-
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/d3vkk/ladies-of-lux-pwa)
+[Open in browser-based Visual Studio Code](https://vscode.dev//github/d3vkk/ladies-of-lux-pwa)
 
 Fork or clone this repo
 ```
